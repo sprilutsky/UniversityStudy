@@ -8,5 +8,8 @@ public class Main {
 
         SecondTask secondTask = new SecondTask("f.txt", "g.txt", "h.txt", "a d c test first", "b e second third alpha");
         secondTask.run();
+
+        ThirdTask thirdTask = new ThirdTask();
+        thirdTask.run();
     }
 }
